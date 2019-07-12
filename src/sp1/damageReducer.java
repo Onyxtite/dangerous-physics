@@ -34,7 +34,15 @@ public class damageReducer {
         if (inv.getHelmet() != null) {
             if (helmet.getType() == Material.LEATHER_HELMET) {
                 red = red + 0.04;
-            } else if (helmet.getType() == Material.GOLD_HELMET) {
+            } else if (helmet.getType() == Material.
+		       
+		       
+		       
+		       
+		       
+		       
+		       
+		       EN_HELMET) {
                 red = red + 0.08;
             } else if (helmet.getType() == Material.CHAINMAIL_HELMET) {
                 red = red + 0.08;
@@ -51,7 +59,7 @@ public class damageReducer {
 
             if (boots.getType() == Material.LEATHER_BOOTS) {
                 red = red + 0.04;
-            } else if (boots.getType() == Material.GOLD_BOOTS) {
+            } else if (boots.getType() == Material.GOLDEN_BOOTS) {
                 red = red + 0.04;
             } else if (boots.getType() == Material.CHAINMAIL_BOOTS) {
                 red = red + 0.04;
@@ -67,7 +75,7 @@ public class damageReducer {
         if (inv.getLeggings() != null) {
             if (pants.getType() == Material.LEATHER_LEGGINGS) {
                 red = red + 0.08;
-            } else if (pants.getType() == Material.GOLD_LEGGINGS) {
+            } else if (pants.getType() == Material.GOLDEN_LEGGINGS) {
                 red = red + 0.12;
             } else if (pants.getType() == Material.CHAINMAIL_LEGGINGS) {
                 red = red + 0.16;
@@ -83,7 +91,7 @@ public class damageReducer {
         if (inv.getChestplate() != null) {
             if (chest.getType() == Material.LEATHER_CHESTPLATE) {
                 red = red + 0.12;
-            } else if (chest.getType() == Material.GOLD_CHESTPLATE) {
+            } else if (chest.getType() == Material.GOLDEN_CHESTPLATE) {
                 red = red + 0.20;
             } else if (chest.getType() == Material.CHAINMAIL_CHESTPLATE) {
                 red = red + 0.20;
