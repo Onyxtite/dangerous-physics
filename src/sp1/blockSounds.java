@@ -32,7 +32,7 @@ public class blockSounds {
 				bbreak.put(name, Sound.BLOCK_SAND_BREAK);
 			}
 			else if(name.toLowerCase().contains("wool")||name.toLowerCase().contains("carpet")||name.toLowerCase().contains("bed")) {
-				bbreak.put(name, Sound.BLOCK_CLOTH_BREAK);
+				bbreak.put(name, Sound.BLOCK_WOOL_BREAK);
 			}
 			else if(name.toLowerCase().contains("glass")||name.toLowerCase().contains("ice")) {
 				bbreak.put(name, Sound.BLOCK_GLASS_BREAK);
@@ -47,7 +47,7 @@ public class blockSounds {
 				bbreak.put(name, Sound.BLOCK_METAL_BREAK);
 			}
 			else if(name.toLowerCase().contains("slime")) {
-				bbreak.put(name, Sound.BLOCK_SLIME_BREAK);
+				bbreak.put(name, Sound.BLOCK_SLIME_BLOCK_BREAK);
 			}
 			else if(name.toLowerCase().contains("snow")) {
 				bbreak.put(name, Sound.BLOCK_SNOW_BREAK);
@@ -77,7 +77,7 @@ public class blockSounds {
 				bplace.put(name, Sound.BLOCK_SAND_PLACE);
 			}
 			else if(name.toLowerCase().contains("wool")||name.toLowerCase().contains("carpet")||name.toLowerCase().contains("bed")) {
-				bplace.put(name, Sound.BLOCK_CLOTH_PLACE);
+				bplace.put(name, Sound.BLOCK_WOOL_PLACE);
 			}
 			else if(name.toLowerCase().contains("glass")||name.toLowerCase().contains("ice")) {
 				bplace.put(name, Sound.BLOCK_GLASS_PLACE);
@@ -92,7 +92,7 @@ public class blockSounds {
 				bplace.put(name, Sound.BLOCK_METAL_PLACE);
 			}
 			else if(name.toLowerCase().contains("slime")) {
-				bplace.put(name, Sound.BLOCK_SLIME_PLACE);
+				bplace.put(name, Sound.BLOCK_SLIME_BLOCK_PLACE);
 			}
 			else if(name.toLowerCase().contains("snow")) {
 				bplace.put(name, Sound.BLOCK_SNOW_PLACE);
